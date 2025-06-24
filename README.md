@@ -1,70 +1,71 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Presento React App
 
-## Available Scripts
+Rebuild of the Presento BootstrapMade template using React.js as a Single Page Application (SPA).
 
-In the project directory, you can run:
+## Project Setup
 
-### `npm start`
+### 1. Create the React App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npx create-react-app presento-react-app
+cd presento-react-app
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Install Required Dependencies
 
-### `npm test`
+```bash
+npm install react-router-dom bootstrap @popperjs/core
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Project Folder Structure
 
-### `npm run build`
+```
+presento-react-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/             # Images, fonts, icons
+│   ├── components/         # Reusable components
+│   ├── pages/              # Home, About, Services, etc.
+│   ├── App.js              # Main routing file
+│   ├── App.css             # Global styles
+│   └── index.js            # Entry point
+├── package.json
+└── README.md
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Start Development Server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 5. Open in Browser
 
-### `npm run eject`
+Visit: http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `/` – Home
+- `/about` – About
+- `/services` – Services
+- `/portfolio` – Portfolio
+- `/contact` – Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tools to Use
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Bootstrap 5 (Responsive design)
+- ImgAssistant / Figma (Image selection)
+- Google Fonts (Typography)
+- Color Picker (Brand colors)
+- Chrome Mobile Simulator / Responsively App (Responsive testing)
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Komlika Kailas Taru  
+Trainee Software Developer – Rego Digital Solutions Pvt. Ltd.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For educational purposes only. Template originally by BootstrapMade.
